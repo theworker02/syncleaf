@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/syncleaf",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sync encode/decode helpers for leaf payloads in pipelines.",
+  "bin": {
+    "syncleaf": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/syncleaf.git"
+  },
+  "homepage": "https://theworker02.github.io/syncleaf/",
+  "keywords": [
+    "sync",
+    "leaf",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
